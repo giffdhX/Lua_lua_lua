@@ -1,6 +1,6 @@
 
 local userKey = (type(getgenv) == "function" and getgenv().Key) or Key
-local CorrectKey = "" 
+local CorrectKey = "AST" 
 if userKey ~= CorrectKey then
     error("404", 0)
     return 
